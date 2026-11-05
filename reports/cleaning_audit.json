@@ -1,0 +1,353 @@
+{
+  "rows": 79330,
+  "columns": 32,
+  "raw_exact_duplicate_rows": 25902,
+  "post_normalization_duplicate_rows": 25902,
+  "flags": {
+    "zero_total_guests": 167,
+    "adr_over_1000": 1,
+    "zero_adr": 1208,
+    "zero_total_nights": 331,
+    "undefined_categories": {
+      "ArrivalDateMonth": 0,
+      "Meal": 0,
+      "Country": 0,
+      "MarketSegment": 2,
+      "DistributionChannel": 4,
+      "ReservedRoomType": 0,
+      "AssignedRoomType": 0,
+      "DepositType": 0,
+      "Agent": 0,
+      "Company": 0,
+      "CustomerType": 0,
+      "ReservationStatus": 0
+    }
+  },
+  "columns_profile": [
+    {
+      "column": "IsCanceled",
+      "dtype": "Int64",
+      "raw_missing_exact": 0,
+      "normalized_missing_before_id_mapping": 0,
+      "output_missing": 0,
+      "distinct_nonmissing": 2,
+      "min": 0.0,
+      "max": 1.0
+    },
+    {
+      "column": "LeadTime",
+      "dtype": "Int64",
+      "raw_missing_exact": 0,
+      "normalized_missing_before_id_mapping": 0,
+      "output_missing": 0,
+      "distinct_nonmissing": 453,
+      "min": 0.0,
+      "max": 629.0
+    },
+    {
+      "column": "ArrivalDateYear",
+      "dtype": "Int64",
+      "raw_missing_exact": 0,
+      "normalized_missing_before_id_mapping": 0,
+      "output_missing": 0,
+      "distinct_nonmissing": 3,
+      "min": 2015.0,
+      "max": 2017.0
+    },
+    {
+      "column": "ArrivalDateMonth",
+      "dtype": "string",
+      "raw_missing_exact": 0,
+      "normalized_missing_before_id_mapping": 0,
+      "output_missing": 0,
+      "distinct_nonmissing": 12,
+      "min": null,
+      "max": null
+    },
+    {
+      "column": "ArrivalDateWeekNumber",
+      "dtype": "Int64",
+      "raw_missing_exact": 0,
+      "normalized_missing_before_id_mapping": 0,
+      "output_missing": 0,
+      "distinct_nonmissing": 53,
+      "min": 1.0,
+      "max": 53.0
+    },
+    {
+      "column": "ArrivalDateDayOfMonth",
+      "dtype": "Int64",
+      "raw_missing_exact": 0,
+      "normalized_missing_before_id_mapping": 0,
+      "output_missing": 0,
+      "distinct_nonmissing": 31,
+      "min": 1.0,
+      "max": 31.0
+    },
+    {
+      "column": "StaysInWeekendNights",
+      "dtype": "Int64",
+      "raw_missing_exact": 0,
+      "normalized_missing_before_id_mapping": 0,
+      "output_missing": 0,
+      "distinct_nonmissing": 14,
+      "min": 0.0,
+      "max": 16.0
+    },
+    {
+      "column": "StaysInWeekNights",
+      "dtype": "Int64",
+      "raw_missing_exact": 0,
+      "normalized_missing_before_id_mapping": 0,
+      "output_missing": 0,
+      "distinct_nonmissing": 29,
+      "min": 0.0,
+      "max": 41.0
+    },
+    {
+      "column": "Adults",
+      "dtype": "Int64",
+      "raw_missing_exact": 0,
+      "normalized_missing_before_id_mapping": 0,
+      "output_missing": 0,
+      "distinct_nonmissing": 5,
+      "min": 0.0,
+      "max": 4.0
+    },
+    {
+      "column": "Children",
+      "dtype": "Int64",
+      "raw_missing_exact": 4,
+      "normalized_missing_before_id_mapping": 4,
+      "output_missing": 4,
+      "distinct_nonmissing": 4,
+      "min": 0.0,
+      "max": 3.0
+    },
+    {
+      "column": "Babies",
+      "dtype": "Int64",
+      "raw_missing_exact": 0,
+      "normalized_missing_before_id_mapping": 0,
+      "output_missing": 0,
+      "distinct_nonmissing": 5,
+      "min": 0.0,
+      "max": 10.0
+    },
+    {
+      "column": "Meal",
+      "dtype": "string",
+      "raw_missing_exact": 0,
+      "normalized_missing_before_id_mapping": 0,
+      "output_missing": 0,
+      "distinct_nonmissing": 4,
+      "min": null,
+      "max": null
+    },
+    {
+      "column": "Country",
+      "dtype": "string",
+      "raw_missing_exact": 24,
+      "normalized_missing_before_id_mapping": 24,
+      "output_missing": 24,
+      "distinct_nonmissing": 166,
+      "min": null,
+      "max": null
+    },
+    {
+      "column": "MarketSegment",
+      "dtype": "string",
+      "raw_missing_exact": 0,
+      "normalized_missing_before_id_mapping": 0,
+      "output_missing": 0,
+      "distinct_nonmissing": 8,
+      "min": null,
+      "max": null
+    },
+    {
+      "column": "DistributionChannel",
+      "dtype": "string",
+      "raw_missing_exact": 0,
+      "normalized_missing_before_id_mapping": 0,
+      "output_missing": 0,
+      "distinct_nonmissing": 5,
+      "min": null,
+      "max": null
+    },
+    {
+      "column": "IsRepeatedGuest",
+      "dtype": "Int64",
+      "raw_missing_exact": 0,
+      "normalized_missing_before_id_mapping": 0,
+      "output_missing": 0,
+      "distinct_nonmissing": 2,
+      "min": 0.0,
+      "max": 1.0
+    },
+    {
+      "column": "PreviousCancellations",
+      "dtype": "Int64",
+      "raw_missing_exact": 0,
+      "normalized_missing_before_id_mapping": 0,
+      "output_missing": 0,
+      "distinct_nonmissing": 10,
+      "min": 0.0,
+      "max": 21.0
+    },
+    {
+      "column": "PreviousBookingsNotCanceled",
+      "dtype": "Int64",
+      "raw_missing_exact": 0,
+      "normalized_missing_before_id_mapping": 0,
+      "output_missing": 0,
+      "distinct_nonmissing": 73,
+      "min": 0.0,
+      "max": 72.0
+    },
+    {
+      "column": "ReservedRoomType",
+      "dtype": "string",
+      "raw_missing_exact": 0,
+      "normalized_missing_before_id_mapping": 0,
+      "output_missing": 0,
+      "distinct_nonmissing": 8,
+      "min": null,
+      "max": null
+    },
+    {
+      "column": "AssignedRoomType",
+      "dtype": "string",
+      "raw_missing_exact": 0,
+      "normalized_missing_before_id_mapping": 0,
+      "output_missing": 0,
+      "distinct_nonmissing": 9,
+      "min": null,
+      "max": null
+    },
+    {
+      "column": "BookingChanges",
+      "dtype": "Int64",
+      "raw_missing_exact": 0,
+      "normalized_missing_before_id_mapping": 0,
+      "output_missing": 0,
+      "distinct_nonmissing": 21,
+      "min": 0.0,
+      "max": 21.0
+    },
+    {
+      "column": "DepositType",
+      "dtype": "string",
+      "raw_missing_exact": 0,
+      "normalized_missing_before_id_mapping": 0,
+      "output_missing": 0,
+      "distinct_nonmissing": 3,
+      "min": null,
+      "max": null
+    },
+    {
+      "column": "Agent",
+      "dtype": "string",
+      "raw_missing_exact": 0,
+      "normalized_missing_before_id_mapping": 8131,
+      "output_missing": 0,
+      "distinct_nonmissing": 224,
+      "min": null,
+      "max": null
+    },
+    {
+      "column": "Company",
+      "dtype": "string",
+      "raw_missing_exact": 0,
+      "normalized_missing_before_id_mapping": 75641,
+      "output_missing": 0,
+      "distinct_nonmissing": 208,
+      "min": null,
+      "max": null
+    },
+    {
+      "column": "DaysInWaitingList",
+      "dtype": "Int64",
+      "raw_missing_exact": 0,
+      "normalized_missing_before_id_mapping": 0,
+      "output_missing": 0,
+      "distinct_nonmissing": 115,
+      "min": 0.0,
+      "max": 391.0
+    },
+    {
+      "column": "CustomerType",
+      "dtype": "string",
+      "raw_missing_exact": 0,
+      "normalized_missing_before_id_mapping": 0,
+      "output_missing": 0,
+      "distinct_nonmissing": 4,
+      "min": null,
+      "max": null
+    },
+    {
+      "column": "ADR",
+      "dtype": "Float64",
+      "raw_missing_exact": 0,
+      "normalized_missing_before_id_mapping": 0,
+      "output_missing": 0,
+      "distinct_nonmissing": 5405,
+      "min": 0.0,
+      "max": 5400.0
+    },
+    {
+      "column": "RequiredCarParkingSpaces",
+      "dtype": "Int64",
+      "raw_missing_exact": 0,
+      "normalized_missing_before_id_mapping": 0,
+      "output_missing": 0,
+      "distinct_nonmissing": 4,
+      "min": 0.0,
+      "max": 3.0
+    },
+    {
+      "column": "TotalOfSpecialRequests",
+      "dtype": "Int64",
+      "raw_missing_exact": 0,
+      "normalized_missing_before_id_mapping": 0,
+      "output_missing": 0,
+      "distinct_nonmissing": 6,
+      "min": 0.0,
+      "max": 5.0
+    },
+    {
+      "column": "ReservationStatus",
+      "dtype": "string",
+      "raw_missing_exact": 0,
+      "normalized_missing_before_id_mapping": 0,
+      "output_missing": 0,
+      "distinct_nonmissing": 3,
+      "min": null,
+      "max": null
+    },
+    {
+      "column": "ReservationStatusDate",
+      "dtype": "string",
+      "raw_missing_exact": 0,
+      "normalized_missing_before_id_mapping": 0,
+      "output_missing": 0,
+      "distinct_nonmissing": 864,
+      "min": null,
+      "max": null
+    },
+    {
+      "column": "ArrivalDate",
+      "dtype": "string",
+      "raw_missing_exact": null,
+      "normalized_missing_before_id_mapping": null,
+      "output_missing": 0,
+      "distinct_nonmissing": 793,
+      "min": null,
+      "max": null
+    }
+  ],
+  "input_file": "H2.csv",
+  "input_sha256": "6796f5b9b2b9e7281662b29730fc2880f8e614107d0d14d09be2ede1a6e605a4",
+  "output_sha256": "4e9f72281e67e2d04c70ce76a9097ff964f88f31e4270e0b332629fcfd9c17f9",
+  "pandas_version": "3.0.1",
+  "numpy_version": "2.3.5"
+}
